@@ -1,0 +1,101 @@
+/* css reset */
+body{
+    margin : 0px;
+    padding : 0px;
+    background : url('https://images.hdqwalls.com/download/1/girl-fitness-model-pic.jpg');
+    height : 1024px;
+    font-family: 'Lobster', sans-serif;
+}
+.left{
+    color: white;
+    position: absolute;
+    top : 20px;
+    left: 34px;
+    display: inline-block;
+}
+.left img{
+    top : 10px;
+    width: 90px;
+    height: 60px;
+}
+.left div{
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 70px;
+    font-size: 17px;
+}
+.center{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.right{
+    color: white;
+    position: absolute;
+    top : 20px;
+    right: 34px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 30px;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Lobster', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0px 9px;
+    padding: 4px 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(117, 124, 81);
+}
+.container{
+    color: cornsilk;
+    background-color: black;
+    border: 2px solid white;
+    margin: 78px 71px;
+    padding: 45px;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.form1 input {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+.form1 select{
+    font-family: 'Lobster', sans-serif;
+    display: inline-block;
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+#Submit{
+    margin : 0px 0px;
+}
